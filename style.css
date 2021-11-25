@@ -1,0 +1,36 @@
+body{
+    background-color: #7fefbd;
+}
+
+#mainNav {
+    background-color:#542e71;
+    font-family: "Nunito", sans-serif;
+    
+}
+
+#mainNav .navbar-brand{
+    color: #d7b8f3;
+    font-weight: bold;
+}
+ #mainNav .nav-link {
+    color: #d7b8f3;
+} 
+
+#mainNav .nav-link:hover {
+    color: #7fefbd;
+} 
+
+button .navbar-toggler{
+    color: #d7b8f3;
+}
+
+.about{
+    color: #542e71;
+}
+
+.about-pic{
+    border-radius: 50%;
+    min-width: 250px;
+    max-height: 250px;
+
+}
