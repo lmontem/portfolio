@@ -1,6 +1,4 @@
-body{
-    background-color: #7fefbd;
-}
+
 
 #mainNav {
     background-color:#542e71;
@@ -22,6 +20,11 @@ body{
 
 button .navbar-toggler{
     color: #d7b8f3;
+}
+
+.portfolio-screenshot{
+    max-width: 400px;
+    min-height: 272px;
 }
 
 .about{
