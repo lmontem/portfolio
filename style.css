@@ -1,7 +1,10 @@
-
+body{
+    background-color: #542e71;
+    font-family: "Nunito", sans-serif;
+}
 
 #mainNav {
-    background-color:#542e71;
+    background-color:#7fefbd;
     font-family: "Nunito", sans-serif;
     
 }
@@ -9,6 +12,11 @@
 #mainNav .navbar-brand{
     color: #d7b8f3;
     font-weight: bold;
+}
+
+#mainNav .navbar-brand:hover{
+    color: #7fefbd;
+    
 }
  #mainNav .nav-link {
     color: #d7b8f3;
@@ -22,9 +30,22 @@ button .navbar-toggler{
     color: #d7b8f3;
 }
 
+.portfolio-card{
+    background-color: #d7b8f3;
+    border-radius: 5%;
+}
+
+.portfolio-card:hover{
+    background-color: #7fefbd;
+    box-shadow: 10px 10px 5px;
+}
 .portfolio-screenshot{
     max-width: 400px;
     min-height: 272px;
+}
+
+.portfolio-title{
+    font-weight: bold;
 }
 
 .about{
