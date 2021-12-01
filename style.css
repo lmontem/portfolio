@@ -4,13 +4,13 @@ body{
 }
 
 #mainNav {
-    background-color:#7fefbd;
+    background-color:#d7b8f3;
     font-family: "Nunito", sans-serif;
     
 }
 
 #mainNav .navbar-brand{
-    color: #d7b8f3;
+    color: #542e71;
     font-weight: bold;
 }
 
@@ -19,7 +19,7 @@ body{
     
 }
  #mainNav .nav-link {
-    color: #d7b8f3;
+    color: #542e71;
 } 
 
 #mainNav .nav-link:hover {
@@ -28,6 +28,15 @@ body{
 
 button .navbar-toggler{
     color: #d7b8f3;
+}
+
+.name-title{
+    color:#d7b8f3;
+    font-weight: bold;
+}
+
+.name-about{
+    color:#d7b8f3;
 }
 
 .portfolio-card{
@@ -48,6 +57,14 @@ button .navbar-toggler{
     font-weight: bold;
 }
 
+.portfolio-link{
+    text-decoration: none;
+    color: #542e71;
+}
+
+.portfolio-link:hover{
+    color: white;
+}
 .about{
     color: #542e71;
 }
