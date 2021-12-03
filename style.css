@@ -1,77 +1,93 @@
-body{
+body {
     background-color: #542e71;
     font-family: "Nunito", sans-serif;
 }
 
 #mainNav {
-    background-color:#d7b8f3;
+    background-color: #d7b8f3;
     font-family: "Nunito", sans-serif;
-    
+
 }
 
-#mainNav .navbar-brand{
+#mainNav .navbar-brand {
     color: #542e71;
     font-weight: bold;
+    font-size: 1.5em;
 }
 
-#mainNav .navbar-brand:hover{
+#mainNav .navbar-brand:hover {
     color: #7fefbd;
-    
+
 }
- #mainNav .nav-link {
+
+#mainNav .nav-link {
     color: #542e71;
-} 
+}
 
 #mainNav .nav-link:hover {
     color: #7fefbd;
-} 
+}
 
-button .navbar-toggler{
+button .navbar-toggler {
     color: #d7b8f3;
 }
 
-.name-title{
-    color:#d7b8f3;
+.name-title {
+    color: #d7b8f3;
     font-weight: bold;
 }
 
-.name-about{
-    color:#d7b8f3;
+.name-about {
+    color: #d7b8f3;
 }
 
-.portfolio-card{
+.linkedin {
+    max-width: 20px;
+
+
+}
+
+.portfolio-card {
     background-color: #d7b8f3;
     border-radius: 5%;
 }
 
-.portfolio-card:hover{
+.portfolio-card:hover {
     background-color: #7fefbd;
     box-shadow: 10px 10px 5px;
 }
-.portfolio-screenshot{
+
+.portfolio-screenshot {
     max-width: 400px;
     min-height: 272px;
 }
 
-.portfolio-title{
+.portfolio-title {
     font-weight: bold;
 }
 
-.portfolio-link{
+.portfolio-link {
     text-decoration: none;
     color: #542e71;
 }
 
-.portfolio-link:hover{
+.portfolio-link:hover {
     color: white;
 }
-.about{
+
+.about {
     color: #542e71;
+    background-color: #d7b8f3;
+    border-radius: 10px;
 }
 
-.about-pic{
+.about-pic {
     border-radius: 50%;
     min-width: 250px;
     max-height: 250px;
 
+}
+
+.about-description {
+    color: #542e71;
 }
